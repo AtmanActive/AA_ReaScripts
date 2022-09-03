@@ -19,4 +19,4 @@
 --   * This script bundle consists of 4 scripts that will send all selected tracks to an FX track prefixed with SendFX1-4.
 --   * You can easily customize the values in the scripts.
 -- @link Forum Thread https://forums.cockos.com/showthread.php?p=1923923
--- @link version 2.0 Github: 
+-- @link version 2.0 Github: https://github.com/AtmanActive/AA_ReaScripts/tree/main/Send%20selected%20track(s)%20to%20FX%20track%20(bundle)
