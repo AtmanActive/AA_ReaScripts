@@ -38,7 +38,9 @@ function SendTrackToFX( send_fx_prefix, send_fx_slot )
 				
 				if not string.match( string.sub( send_name, 1, #send_fx_prefix ), send_fx_prefix ) then
 					
-					reaper.CreateTrackSend( track, fx_track )
+					sendIdx = reaper.CreateTrackSend( track, fx_track )
+					
+					reaper.SetTrackSendInfo_Value( track, 0, sendIdx, "D_VOL", 0 )
 					
 				end
 				

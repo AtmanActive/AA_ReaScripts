@@ -1,6 +1,7 @@
 -- @description Send selected track(s) to SendFX track (bundle)
--- @version 2.0
+-- @version 2.2
 -- @changelog
+--   * AtmanActive 2022: added start from -inf send volume
 --   * AtmanActive 2022: added do-not-add-again-if-already-there logic
 --   * little improvements in the code
 --   + the scripts are now located in their own folder
