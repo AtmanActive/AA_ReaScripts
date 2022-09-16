@@ -5,7 +5,7 @@ This is a bundle of LUA scripts for the most advanced [DAW](https://en.wikipedia
 The purpose of this action (script) is to automate adding of SendFX in one go to a selected track.
 
 Also, the script(s) have been enhanced to enable non-destructive behavior when called on a track that already has one or more send FX established.
-In this way, even invoking the script can be automated, from a toolbar button in Reaper or from a button/knob on a MIDI control surface.
+In this way, invoking the script can be automated, from a toolbar button in Reaper or from a button/knob on a MIDI control surface.
 
 My ultimate goal with this is to find the way to execute-action-only-once-per-track-per-session which would then enable a real analog mixer-like workflow where you don't have to add sendFX manually for each track but as soon as you touch sendFX knob, the effect is already there.
 
