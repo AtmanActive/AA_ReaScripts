@@ -33,7 +33,7 @@ That's it. That's all preparation needed.
 
 ## Usage:
 
-Later in your workflow, whenever you want to add sendFX bunch to a track, all you need to do is to select that track and execute the action "SendFX1234".
+Later in your workflow, whenever you want to add sendFX bunch to a track, all you need to do is to select that track and execute the action `aa_Send selected track(s) to SendFX1234.lua`.
 
 You can execute it from a toolbar, or you can create a keyboard shortcut, or you can assign it to a button on a MIDI surface controller using either [CSI](https://github.com/GeoffAWaddington/CSIWiki/wiki) or [ReaLearn](https://www.helgoboss.org/projects/realearn/).
 
