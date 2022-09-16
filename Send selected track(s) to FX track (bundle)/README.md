@@ -13,15 +13,25 @@ On the other hand, if you have a brand new track and you don't touch the sendFX 
 
 Here is how to use it:
 
-When you start your project, create four tracks and name them "SendFX1", "SendFX2", "SendFX3" and "SendFX4".
+## Installation:
+
+Copy all files from this folder to your Reaper installation, [then import them into your Reaper](https://forum.cockos.com/showthread.php?t=186252). Additionally, add them to your toolbar or [CSI](https://github.com/GeoffAWaddington/CSIWiki/wiki) or [ReaLearn](https://www.helgoboss.org/projects/realearn/).
+
+## Preparation:
+
+When you first start your project, execute the script/action `aa_Create SendFX1234 tracks.lua` once.
+
+Or, if you want to do it manually, create four tracks and name them "SendFX1", "SendFX2", "SendFX3" and "SendFX4".
 
 Please note that these required names are just prefixes. 
-You are free to name your tracks "SendFX1: Reverb", or "SendFX2: Delay", or however you wish, as long as the "SendFX1" or "SendFX2" or "SendFX3" or "SendFX4" part is there. It is important to keep these four tracks in order, meaning, they are one after the other as 1, 2, 3 and 4.
+You are free to name your tracks "SendFX1: Reverb", or "SendFX2: Delay", or however you wish, as long as the "SendFX1" or "SendFX2" or "SendFX3" or "SendFX4" part is there. It is important to keep these four tracks in order, meaning, they are one after the other as 1, 2, 3 and 4 since Reaper indexes sends on a track in the same order their destination tracks are present in the arrangement.
 
-Now you add insertFX on these four tracks to create your actual effects (reverb, delay, chorus, flanger...). 
+Now you can add insertFX to those four tracks to create your actual effects (reverb, delay, chorus, flanger...). 
 If you are not yet sure which sound you are after, you can just leave the tracks muted, for now.
 
 That's it. That's all preparation needed.
+
+## Usage:
 
 Later in your workflow, whenever you want to add sendFX bunch to a track, all you need to do is to select that track and execute the action "SendFX1234".
 
